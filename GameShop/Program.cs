@@ -24,7 +24,7 @@ namespace GameShop
             GameOwnerManager gameOwnerManager = new GameOwnerManager();
             gameOwnerManager.OwnGame(game1, gamer1);
 
-            //Kampanya
+            //Kampanya satın alma
 
             Campain campain1 = new Campain { KampanyaAdi = "yılbaşı", KampanyaİndirimMiktari = "% 50" };
             CampainManager campainManager = new CampainManager();
